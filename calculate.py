@@ -1,4 +1,4 @@
-def calculate(operation, a, b):
+def calculate(a, b, operation):
     if operation == 'add':
         return a + b
     elif operation == 'subtract':

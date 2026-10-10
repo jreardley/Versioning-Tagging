@@ -11,6 +11,8 @@ def calculate(a, b, operation):
         return a / b
     elif operation == 'modulo':
             return a % b
+    elif operation == 'power':
+        return a ** b
     else:
         return "Error: Unsupported operation"
 

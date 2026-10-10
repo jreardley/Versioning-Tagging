@@ -13,6 +13,8 @@ def calculate(a, b, operation):
             return a % b
     elif operation == 'power':
         return a ** b
+    elif operation == 'absolute':
+        return abs(a)
     else:
         return "Error: Unsupported operation"
 
